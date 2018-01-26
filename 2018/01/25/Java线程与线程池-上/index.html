@@ -88,16 +88,16 @@
 <meta name="keywords" content="Java,线程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java线程与线程池(上)">
-<meta property="og:url" content="http://yoursite.com/2018/01/25/Java线程与线程池(上)/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/01/25/Java线程与线程池-上/index.html">
 <meta property="og:site_name" content="ZhaoYan&#39;s Blog">
 <meta property="og:description" content="摘要多线程并发编程是Java编程中的重要部分，在Java的API中，我们能找到很简单的方法实现一个线程或使用线程池，本文将介绍Java中线程的使用和相关内容，并简单介绍Java线程池Executor框架。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://yoursite.com/2018/01/25/Java线程与线程池(上)/Java线程与线程池(上">
-<meta property="og:updated_time" content="2018-01-26T09:49:59.827Z">
+<meta property="og:image" content="http://yoursite.com/2018/01/25/Java线程与线程池-上/线程的生命周期.png">
+<meta property="og:updated_time" content="2018-01-26T10:02:15.197Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java线程与线程池(上)">
 <meta name="twitter:description" content="摘要多线程并发编程是Java编程中的重要部分，在Java的API中，我们能找到很简单的方法实现一个线程或使用线程池，本文将介绍Java中线程的使用和相关内容，并简单介绍Java线程池Executor框架。">
-<meta name="twitter:image" content="http://yoursite.com/2018/01/25/Java线程与线程池(上)/Java线程与线程池(上">
+<meta name="twitter:image" content="http://yoursite.com/2018/01/25/Java线程与线程池-上/线程的生命周期.png">
 
 
 
@@ -127,7 +127,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/01/25/Java线程与线程池(上)/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/01/25/Java线程与线程池-上/"/>
 
 
 
@@ -260,7 +260,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/25/Java线程与线程池(上)/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/25/Java线程与线程池-上/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ZhaoYan">
@@ -346,7 +346,7 @@
 <p>这里我们可以发现，在javadoc中解释了，在调用了<code>start()</code>方法时，Java虚拟机会通过本地方法<code>start0()</code>方法调用这个线程的<code>run()</code>方法。</p>
 <p>需要注意的是，一个线程不能被再次启动。</p>
 <h2 id="线程的生命周期"><a href="#线程的生命周期" class="headerlink" title="线程的生命周期"></a>线程的生命周期</h2><p>线程在从创建到死亡有几种不同的状态。下图表示了线程的生命周期。</p>
-<p><img src="/2018/01/25/Java线程与线程池(上)/Java线程与线程池(上" alt="线程的生命周期">/线程的生命周期.png)</p>
+<p><img src="/2018/01/25/Java线程与线程池-上/线程的生命周期.png" alt="线程的生命周期"></p>
 <ul>
 <li>新建(New)：新创建一个线程对象。</li>
 <li>就绪(Runnable)：线程对象创建后，调用了该对象的start()方法。就绪状态的线程位于可运行线程池中，变得可运行，等待获取CPU的使用权。</li>
